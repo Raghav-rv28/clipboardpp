@@ -68,7 +68,7 @@ def add_clipboard_entry(timestamp, content):
     timestamp_label.pack(side=tk.TOP, fill=tk.X)
 
     content_label = tk.Label(entry_frame, text=content, bg="gray", wraplength=500)
-    content_label.pack(fill=tk.X, padx=10, pady=(0, 10))
+    content_label.pack(fill=tk.X, padx=11, pady=(0, 10))
 
 if __name__ == "__main__":
     root = tk.Tk()
